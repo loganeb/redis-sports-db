@@ -1,0 +1,18 @@
+teams
+
+https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams
+
+
+roster
+
+https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{ID}/roster
+
+
+athlete
+
+https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/{ID}
+
+
+athlete splits
+
+https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/{ID}/splits

@@ -1,0 +1,3 @@
+FT.CREATE teamIdx ON JSON PREFIX 1 nba:team SCHEMA $.id as id TEXT $.displayName as displayName TEXT $.location as location TEXT $.color as color TEXT $.abbreviation as abbreviation TEXT $.name as name TEXT
+
+FT.CREATE rosterIdx ON JSON PREFIX 1 nba:roster:team: SCHEMA $.id as id TEXT $.firstName as firstName TEXT $.lastName as lastName TEXT $.displayName as displayName TEXT $.height as height NUMERIC $.weight as weight NUMERIC $.age as age NUMERIC $.teamId as teamId TEXT
